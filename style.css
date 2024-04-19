@@ -1,36 +1,46 @@
-h1 {color: brown;
-}
-#texto-animado {
-    font-family: 'Arial', sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-    color: #000;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-100%, -100%);
-    animation: animacao-texto 5s infinite alternate;
+
+body{
+    background-color: green;
 }
 
-#texto-animado {font-size: 150%;
-                color:red;
-            }
-
-@keyframes animacao-texto {
-    0% {
-        transform: translateX(20px);
-    }
-    25% {
-        transform: translateX(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    75% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateX(0);
-    }
+.titulo {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 500%;
+    color: rgb(238, 255, 0);
+    border-style: groove;
+    border-color: rgb(105, 30, 210);
+     border-width: 4px;
+     text-align: center;
+     padding: auto;
+     
+     
 }
+
+.parte1 {border-style: dashed;
+    border-color: rgb(174, 210, 30);
+     border-width: 8px;
+     font-family: "Micro 5", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+    font-size: 200%;
+    }
+    .parte1 {background-color: aquamarine;
+    }
+
+    .entro {
+        font-family: "Micro 5", sans-serif;
+        line-height: 50px;
+        text-align: center;
+       border-style: ridge;
+        border-color: blue;
+        border-width: 5px;
+        margin: 10px;
+        border-radius: 20px;
+        font-weight: 400;
+        font-style: normal;
+    font-size: 350%;
+
+
+    }
